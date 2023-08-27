@@ -7,13 +7,20 @@
     color: #000000d0;
 }
 body{
-    background-color:#f8f5f2 ;
+    background-color:#eff0f3 ;
 }
 header{
     text-align: center;
     padding: 10px;
+    background-color: #eff0f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header> p{
+    font-size: 20px;
+    font-weight: 700;
     
-    background-color: #f8f5f2;
 }
 main{
     display: flex;
@@ -21,25 +28,29 @@ main{
 }
 main > section{
     width: 33.33%;
-    height: 91vh;
+    height: 85vh;
 }
 
 
 .qualification{
-    background-color:#f25f4c;
+    background-color:rgb(222, 224, 229);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap:20px;
-    font-size: 20px;
-    border-radius: 50px;
-    border: 5px solid #0f0e17;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 .qualification > div{
     display: flex;
     flex-direction: row;
-    margin-left: 90px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
     gap: 10px;
     font-weight: 800;
 }
@@ -53,7 +64,7 @@ input{
     padding: 5px;
     font-size: 16px;
     font-weight: 800;
-    background-color: #a7a9be;
+    background-color: #eff0f3;
 }
 select{
     border: none;
@@ -62,32 +73,58 @@ select{
     height: 30px;
     width: 120px;
     font-weight: 600;
-    background-color: #a7a9be;
+    background-color: #eff0f3;
 }
 option{
     font-weight: 600;
 }
-button{
+.qualification-buttons{
     font-family:'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     width: 200px;
     height: 30px;
-    padding: 2px;
+    padding: 5px;
     font-weight: 600;
     outline: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #078080;
+    background-color: #eebbc3;
+    color:#232946 ;
+    margin-left: 50px;
 }
-
+.qualification-buttons:hover{
+    transition: all 0.5s;
+    color: #eebbc3;
+    background-color:#232946
+}
+#send-button{
+    color: #eebbc3;
+    background-color:#232946 ;
+}
+#send-button:hover{
+    background-color: #eebbc3;
+    color:#232946 ;
+}
+.htp-button{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 6px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #eebbc3;
+    background-color:#232946 ;
+}
 .generated-div-user-area {
     
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: #f8f5f2;
+    background-color: #eff0f3;
+    
   }
   
   .headline-user-area {
@@ -111,7 +148,8 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: #f8f5f2;
+    background-color: #eff0f3;
+    
   }
   
   .headline-comp-area {
@@ -126,7 +164,10 @@ button{
     margin-bottom: auto;
   }
   
-
+h2{
+    text-decoration: underline;
+    text-decoration-color:#eebbc3 ;
+}
 
 
 
