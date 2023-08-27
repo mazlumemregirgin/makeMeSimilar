@@ -15,9 +15,8 @@
     </header>
     <main>
         <section class="generated-div-comp-area">
-            <div class="generated-div-comp">
-
-            </div>
+            <div class="headline-comp-area"><h2>Target Box</h2></div>
+            <div id="generated-div-comp" ></div>
         </section>
         <section class="qualification">
             <div>
@@ -30,52 +29,59 @@
             </div>
             <div class="boxcolor">
                 <p>Box Colour :</p>
-                    <select id="seckutu" name="seckutu">
-                        <option value="1">Kırmızı</option>
-                        <option value="2">Mavi</option>
-                        <option value="3">Yeşil</option>
-                        <option value="4">Sarı</option>
-                        <option value="5">Mor</option>
-                        <option value="6">Turuncu</option>
-                        <option value="7">Pembe</option>
-                        <option value="8">Siyah</option>
+                    <select id="box-colour-selector" name="seckutu">
+                        <option value="" disabled selected>Choose Colour</option>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="purple">Purple</option>
+                        <option value="orange">Orange</option>
+                        <option value="pink">Pink</option>
 
                     </select>
             </div>
             <div>
                 <p>Box Border Type :</p>
-                    <select id="seckutu" name="seckutu">
-                        <option value="1">Dashed</option>
-                        <option value="2">Dotted</option>
-                        <option value="3">Double</option>
-                        <option value="4">Solid</option>
-                        <option value="5">Groove</option>
+                    <select id="box-border-type-selector" name="seckutu">
+                        <option value="" disabled selected>Choose Type</option>
+                        <option value="dashed">Dashed</option>
+                        <option value="dotted">Dotted</option>
+                        <option value="double">Double</option>
+                        <option value="solid">Solid</option>
+                        <option value="groove">Groove</option>
 
                     </select>
             </div>
             <div>
                 <p>Box Border width :</p>
-                <input type="text" inputmode="numeric" name="width" id="width">
+                <input type="text" inputmode="numeric" name="width" id="border-width">
             </div>
             <div>
                 <p>Box Border Colour :</p>
-                    <select id="seckutu" name="seckutu" >
+                    <select id="box-border-color-selector" name="seckutu" >
                         <option value="" disabled selected>Choose Color</option>
-                        <option value="secenek1">Seçenek 1</option>
-                        <option value="secenek2">Seçenek 2</option>
-                        <option value="secenek3">Seçenek 3</option>
+                        <option value="red">red</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="purple">Purple</option>
+                        <option value="orange">Orange</option>
+                        <option value="pink">Pink</option>
+                        <option value="black">Black</option>
                     </select>
             </div>
             <div>
                 <p>Box Rotate :</p>
-                <input type="text" inputmode="numeric" name="width" id="width">
+                <input type="text" inputmode="numeric" name="width" id="box-rotate">
             </div>
             <div style="margin-top: 20px;">
                 <button type="button" id="apply-button">Apply the properties</button>
             </div>
         </section>
-        <section class="generated-div-user">
-
+        <section class="generated-div-user-area">
+            <div class="headline-user-area"><h2>Your Box</h2></div>
+            <div id="generated-div-user" ></div>
         </section>
     </main>
 </body>
