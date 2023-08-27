@@ -3,10 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    overflow-y: hidden;
+    color: #000000d0;
+}
+body{
+    background-color:#f8f5f2 ;
 }
 header{
     text-align: center;
     padding: 10px;
+    
+    background-color: #f8f5f2;
 }
 main{
     display: flex;
@@ -17,18 +24,17 @@ main > section{
     height: 91vh;
 }
 
-.generated-div-comp-area{
-    background-color: rgb(148, 45, 112);
-}
 
 .qualification{
-    background-color: rgb(36, 132, 132);
+    background-color:#f25f4c;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap:20px;
     font-size: 20px;
+    border-radius: 50px;
+    border: 5px solid #0f0e17;
 }
 .qualification > div{
     display: flex;
@@ -39,21 +45,27 @@ main > section{
 }
 input{
     height: 30px;
-    width: 100px;
+    width: 120px;
     outline: none;
     border: none;
     border-radius: 3px;
-    text-align: left;
+    text-align: center;
     padding: 5px;
     font-size: 16px;
     font-weight: 800;
+    background-color: #a7a9be;
 }
 select{
     border: none;
     outline: none;
     border-radius: 3px;
     height: 30px;
-    width: 100px;
+    width: 120px;
+    font-weight: 600;
+    background-color: #a7a9be;
+}
+option{
+    font-weight: 600;
 }
 button{
     font-family:'Lato', sans-serif;
@@ -66,8 +78,58 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    background-color: #078080;
 }
 
-.generated-div-user{
-    background-color: rgb(160, 133, 14);
-}
+.generated-div-user-area {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f5f2;
+  }
+  
+  .headline-user-area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+  }
+  
+  #generated-div-user {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+
+
+
+  .generated-div-comp-area {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f5f2;
+  }
+  
+  .headline-comp-area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+  }
+  
+  #generated-div-comp {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+
+
+
+
+
+
+
