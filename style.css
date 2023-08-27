@@ -6,18 +6,15 @@
 }
 header{
     text-align: center;
-    
     padding: 10px;
 }
 main{
     display: flex;
     flex-direction: row;
-    
 }
 main > section{
     width: 33.33%;
     height: 91vh;
-    
 }
 
 .generated-div-comp-area{
@@ -57,9 +54,19 @@ select{
     border-radius: 3px;
     height: 30px;
     width: 100px;
-    
 }
-
+button{
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+    width: 200px;
+    height: 30px;
+    padding: 2px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 .generated-div-user{
     background-color: rgb(160, 133, 14);
