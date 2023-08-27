@@ -11,20 +11,22 @@
 </head>
 <body>
     <header>
-        <h1>Make Me Similar Game</h1>
+        <p id="scoreSection">Score: 0</p>
+        <h1>Make Me Similar</h1>
+        <button type="button" class="htp-button">How To Play</button>
     </header>
     <main>
         <section class="generated-div-comp-area">
             <div class="headline-comp-area"><h2>Target Box</h2></div>
-            <div id="generated-div-comp" ></div>
+            <div id="generated-div-comp"></div>
         </section>
         <section class="qualification">
             <div>
-                <p>Box Width :</p>
+                <p>Box Width (25, 50, ...,200)px :</p>
                 <input type="text" inputmode="numeric" name="width" id="width">
             </div>
             <div>
-                <p>Box Height :</p>
+                <p>Box Height (25, 50, ...,200)px :</p>
                 <input type="text" inputmode="numeric" name="height" id="height">
             </div>
             <div class="boxcolor">
@@ -54,7 +56,7 @@
                     </select>
             </div>
             <div>
-                <p>Box Border width :</p>
+                <p>Box Border width (1, 2, ... , 5)px :</p>
                 <input type="text" inputmode="numeric" name="width" id="border-width">
             </div>
             <div>
@@ -72,11 +74,13 @@
                     </select>
             </div>
             <div>
-                <p>Box Rotate :</p>
-                <input type="text" inputmode="numeric" name="width" id="box-rotate">
+                <button type="button" class="qualification-buttons" id="random-div-generator" style="margin-top: 20px; ">Create Random Box</button>
             </div>
-            <div style="margin-top: 20px;">
-                <button type="button" id="apply-button">Apply the properties</button>
+            <div >
+                <button type="button" class="qualification-buttons" id="apply-button">Apply The Properties</button>
+            </div>
+            <div >
+                <button type="button" class="qualification-buttons" id="send-button">Compare It</button>
             </div>
         </section>
         <section class="generated-div-user-area">
